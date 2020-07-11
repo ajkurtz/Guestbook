@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<style>
+		body {
+			margin: 40px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<h1>Add Your Signature</h1>
+
+	<form action="/guestbook/create" method="POST">
+		<div><input type="text" name="signature">
+			<input type="submit" value="Submit">
+			<input type="button" value="Cancel" onclick="window.location='/guestbook'" />
+		</div>
+	</form>
+
+</body>
+
+</html>
