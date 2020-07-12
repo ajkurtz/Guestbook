@@ -6,9 +6,9 @@ type ViewTemplate struct {
 }
 
 type Guestbook struct {
-	Signatures     []Signature
+	Signatures []Signature `json:"signatures"`
 }
 
 type Signature struct {
-	Signature     string
+	Signature string `json:"signature"`
 }
